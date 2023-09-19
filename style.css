@@ -1,0 +1,273 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container_1{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    background-color: rgb(15, 15, 15);
+    padding: 5% 5% 0px 5%;
+}
+.container_2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5%;
+}
+.sub_1{
+    background: url(http://www.pngmart.com/files/1/Cool-Businessman-PNG.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 2% 5%;
+}
+.sub_1>img{
+    width: 100px;
+}
+.sub_1>h1{
+    font-size: 3em;
+    text-shadow: 2px 2px 5px black;
+    outline: 2px;
+    margin-bottom: 10px;
+}
+.sub_1>hr{
+    width: 15%;
+    height: 3px;
+    background-color: rgb(236, 128, 5);
+    outline: none;
+    border: none;
+    margin-left: 1%;
+    margin-bottom: 30px;
+}
+.socialmedia-links{
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+}
+.sub_2{
+    padding:5%;
+
+}
+.sub_2>div{
+    width: 70%;
+    height: 35px;
+    color: rgb(195, 195, 191);
+    display: flex;
+    font-size: 1.4em;
+    justify-content: space-between;
+}
+.sub_2>div>a{
+    text-decoration: none;
+color: white;
+}
+.sub_2>div>a:hover{
+    border-bottom: 2px solid rgb(236, 128, 5);
+    cursor: pointer;
+    color: white;
+}
+.sub_2>p,.sub_11>p,.sub_22>p,.portfolio_1>p{
+    color: rgb(195, 195, 191);
+}
+.sub_2>button,.sub_11>button,.portfolio_1>button,.container_7>div>button{
+    color: rgb(236, 128, 5);
+    border: none;
+    outline: none;
+    background-color: rgb(15, 15, 15);
+    font-weight: bold;
+    padding: 3%;
+    margin-bottom: 55px;
+}
+.sub_11>button,.portfolio_1>button{
+    background-color: rgb(51, 51, 51);
+
+}
+.container_7>div>button{
+    background-color: black;
+}
+.sub_2>button>span,.sub_11>button>span,.container_7>div>button>span{
+    margin-right: 5px;
+}
+.sub_2>button:hover{
+    cursor: pointer;
+}
+.sub_11,.sub_22{
+    padding: 5%;
+}
+.sub_22>div{
+    display: flex;
+    justify-content: space-around;
+}
+.sub_22>div>div{
+    display: flex;
+    justify-content: space-around;
+    align-items: last baseline;
+    width: 30%;
+}
+.sub_22>div>div>h1{
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(236, 128, 5);
+    margin: 0px;
+}
+.container_3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5%;
+    padding: 1% 8%;
+}
+.container_3>div{
+    height: 200px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container_3>div>i{
+    font-size: 3em;
+}
+
+.container_3>div:hover{
+    background-color: rgb(236, 128, 5);
+    color: white;
+    cursor: pointer;
+}
+.container_4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5%;
+    padding: 4% 8%;
+}
+
+.project_pic{
+    width: 80%;
+    margin: auto;
+    height: 450px;
+    background-color: wheat;
+    margin-bottom: 25px;
+    background: url(https://preview.redd.it/vxb5lk0zxra71.png?auto=webp&s=bbf8e7d6a39fe7b0e29345e5e4cd56492794f09c);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 5px 10px black;
+
+}
+.project_pic>div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container_5,.container_6{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 5%;
+    padding: 4% 8%; 
+}
+.blog_list>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog_list>hr{
+    width: 90%;
+    opacity: 0.2;
+}
+.blog_list>div>p,.portfolio_div>p{
+    color: rgb(138, 137, 137);
+}
+.blog_list>div>i{
+    color: rgb(236, 128, 5);
+
+}
+.profile_pic{
+    width: 70%;
+    margin: auto;
+    height: 300px;
+background: url(./images/alok.jpg);
+background-size: cover;
+background-position: center;
+box-shadow: 5px 5px 10px black;
+border: 2px solid black;
+}
+.portfolio_div>div{
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio_div>div>hr{
+    width: 20%;
+    margin-left: 0px;
+    height: 4px;
+    background-color: rgb(138, 137, 137);
+    border: none;
+    outline: none;
+}
+.portfolio_div>div>hr:first-child{
+    background-color: rgb(236, 128, 5);
+}
+
+.container_7{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5%;
+    padding: 4% 8%; 
+    background-color: black;
+}
+.neww{
+    justify-content: space-between;
+}
+.neww i{
+    color: rgb(236, 128, 5);
+    margin-left: 15px;
+}
+.tellmeproject{
+    display: flex;
+    align-items: center;
+}
+.container_8{
+    text-align: center;
+    background-color: black;
+    padding-bottom: 100px;
+}
+.container_8>img{
+    width: 5%;
+}
+.container_8>div{
+    display: flex;
+    justify-content: space-between;
+    width: 5%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+@media only screen and (max-width:600px){
+    .container_1,.container_2,.container_3,.container_4,.container_5,.container_6,.container_7,.container_8{
+        grid-template-columns: 1fr;
+    }
+   
+}
+
+@media only screen and (max-width:1000px){
+    
+    .sub_1{
+        background: url(https://img.freepik.com/free-vector/matrix-style-binary-code-digital-falling-numbers-blue-background_1017-37387.jpg?size=626&ext=jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 2% 5%;
+    }
+    .socialmedia-links{
+        width: 20%;
+    }
+    .container_8>div{
+        display: flex;
+        justify-content: space-between;
+        width: 15%;
+        margin: auto;
+    }
+}
